@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hind&family=Merriweather&family=Merriweather+Sans&family=Rubik&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 19px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+
+    /*border-right: 1px solid red;*/
+    /*border-left: 1px solid red;*/
+}
+
+.site-block-title {
+    width: fit-content;
+    margin-bottom: 10px;
+
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    color: #3a86ff;
+}
+
+.site-text-span {
+    font-size: inherit;
+
+    color: #3a86ff;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__title {
+    font-family: "Rubik", sans-serif;
+}
+
+.site-logo {
+    display: flex;
+    align-items: center;
+}
+
+.site-logo__img {
+    width: 60px;
+    height: 60px;
+}
+
+.site-logo__name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.add-book {
+    margin: 30px 0;
+}
+
+.add-book__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0;
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.add-book__inputs {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.add-book__input {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+
+    border: 2px solid black;
+    outline: none;
+}
+
+.add-book__input:focus {
+    border: 2px solid #3a86ff;
+}
+
+.add-book__button {
+    margin: 5px;
+    padding: 10px 15px;
+
+    text-transform: uppercase;
+
+    background-color: transparent;
+    border: 2px solid #3a86ff;
+
+    cursor: pointer;
+
+    transition-duration: .3s;
+    transition-property: color, background-color;
+}
+
+.add-book__button:hover {
+    color: white;
+    background-color: #3a86ff;
+}
+
+.shelf__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    width: 260px;
+
+    box-shadow: 0 2px 8px grey;
+}
+
+.book__cover {
+    width: 100%;
+    height: 370px;
+}
+
+.book__name,
+.book__author,
+.book__year {
+    text-align: center;
+}
+
+.book__author,
+.book__year {
+    text-align: center;
+
+    color: rgba(0, 0, 0, .6);
+}
+
+.book__name {
+    margin: 5px 0;
+
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+{
+  "books": [
+    {
+      "title": "Руководство по выживанию среди зомби",
+      "author": "Макс Брукс",
+      "coverLink": "https://upload.wikimedia.org/wikipedia/ru/c/c2/Zombiesurvivalguide.jpg",
+      "year": "2003",
+      "ISBN": "978-5-17-071801-6"
+    },
+    {
+      "title": "Грокаем алгоритмы",
+      "author": "Адитья Бхаргава",
+      "coverLink": "https://habrastorage.org/getpro/habr/upload_files/eca/4b1/f87/eca4b1f877381965ac6486c044ec8db4.png",
+      "year": "2012",
+      "ISBN": "978-5-4461-0923-4"
+    }
+  ]
+}
